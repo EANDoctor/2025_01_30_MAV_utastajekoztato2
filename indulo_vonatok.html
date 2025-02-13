@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Induló vonatok</title>
+    <link rel="stylesheet" href="indulo_vonatok.css">
 </head>
 <body>
     <table>
         <thead>
+            <tr>
+                <th id="clock">12:02:29</th>
+                <th>Abfahrt</th>
+                <th></th>
+                <th id="center">INDULÓ VONATOK</th>
+                <th>Departures</th>
+                <th>logo</th>
+            </tr>
             <tr>
                 <th>Tervezett indulás</th>
                 <th>Tervezett érkezés</th>
@@ -20,22 +29,14 @@
         <tbody>
             <tr>
                 <td>8:31</td>
-                <td>8:43</td>
+                <td id="keses">8:43</td>
                 <td>717</td>
-                <td>Budapest*Nyugati</td>
+                <td>Budapest-Nyugati</td>
                 <td>Kecskemét-Cegléd</td>
                 <td>5</td>
             </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>8:38</td>
+            <tr class="paratlan_sor">
+                <td>8:33</td>
                 <td></td>
                 <td>7022</td>
                 <td>Szeged</td>
@@ -43,12 +44,36 @@
                 <td>5</td>
             </tr>
             <tr>
+                <td>9:30</td>
                 <td></td>
+                <td>7022</td>
+                <td>Szeged</td>
+                <td>Kistelek-Szatymaz</td>
+                <td>3</td>
+            </tr>
+            <tr class="paratlan_sor">
+                <td>9:31</td>
                 <td></td>
+                <td>727</td>
+                <td>Budapest-Nyugati</td>
+                <td>Kecskemét-Cegléd</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>9:44</td>
                 <td></td>
+                <td>7897</td>
+                <td>Külsőhalas</td>
                 <td></td>
+                <td>3</td>
+            </tr>
+            <tr class="paratlan_sor">
+                <td>9:48</td>
                 <td></td>
-                <td></td>
+                <td>37412</td>
+                <td>Szentes</td>
+                <td>Csongrád</td>
+                <td>-</td>
             </tr>
         </tbody>
     </table>

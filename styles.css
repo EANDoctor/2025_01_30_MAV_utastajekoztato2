@@ -4,7 +4,7 @@ table, th, td {
 }
 
 table {
-  width: 50%; /* weboldal szélessége */
+  width: 65%; /* weboldal szélessége */
   background-color: rgb(12, 121, 12);  /* háttérszín */
   color: rgb(232, 238, 235); /* betűszín */
   font-family: 'Courier New', Courier, monospace;

@@ -2,6 +2,11 @@ table, th, td {
     border: 1px solid;
     border-collapse: collapse;
   }
+
+  
+tbody tr:nth-child(even) {
+    background-color: rgb(61, 182, 13);
+  }
   
   /* Táblázat design */
 
@@ -37,7 +42,11 @@ table, th, td {
 
   /* Kiemelés kurzorral */
 
-  th tr :hover{
+  th :hover{
+    background-color: #D6EEEE;
+  }
+
+  tr :hover{
     background-color: #D6EEEE;
   }
 
@@ -46,3 +55,11 @@ table, th, td {
   th{ 
     text-align: center;
   }
+
+  #valtas {
+    border: 2px solid rgb(30, 196, 218);
+    outline: 1px solid rgb(30, 196, 218);
+    background-color: rgb(27, 11, 255);
+    color: rgb(0, 255, 242);
+  }
+  #mavlogo  {outline-color: rgb(21, 255, 0);}

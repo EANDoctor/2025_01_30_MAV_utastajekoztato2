@@ -1,13 +1,12 @@
-body {
-    background-color: rgb(42, 95, 156);
-}
 table, th, td {
     border: 1px solid;
     border-collapse: collapse;
   }
   
+  /* Táblázat design */
+
   table {
-    width: 40%; /* weboldal szélessége */
+    width: 65%; /* weboldal szélessége */
     background-color: rgb(12, 121, 12);  /* háttérszín */
     color: rgb(232, 238, 235); /* betűszín */
     font-family: 'Courier New', Courier, monospace;
@@ -22,6 +21,8 @@ table, th, td {
     background-color: rgb(199, 16, 16);
   }
   
+  /* Minden 2.sor színe */
+  
   .paratlan_sor{
     background-color: rgb(94, 150, 9);
   } 
@@ -32,4 +33,16 @@ table, th, td {
 
   #clock{
     height: 35px;
+  }
+
+  /* Kiemelés kurzorral */
+
+  th tr :hover{
+    background-color: #D6EEEE;
+  }
+
+  /* Fejléc pozíció */
+  
+  th{ 
+    text-align: center;
   }

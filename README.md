@@ -61,5 +61,5 @@ table {
 
 ### 🔧 Fejlesztési lehetőségek
 - [x] 🔄 Dinamikus adatbetöltés API-n keresztül
-- [o] 🔍 Keresési és szűrési lehetőségek
+- [ ] 🔍 Keresési és szűrési lehetőségek
 - [x] 📱 Reszponzív megjelenítés mobileszközökre

@@ -44,7 +44,7 @@ A projekt élőben megtekinthető az alábbi linken:
 </html>
 ```
 
-## 🎨 CSS Stílusok
+# 🎨 CSS Stílusok
 ```css
  body {
     font-family: Arial, sans-serif;
@@ -57,7 +57,7 @@ table {
     margin: 20px auto;
     border-collapse: collapse;
 }
-
+```
 
 ### 🔧 Fejlesztési lehetőségek
 - [x] 🔄 Dinamikus adatbetöltés API-n keresztül
